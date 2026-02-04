@@ -80,6 +80,8 @@ public class PostService {
                 .title(post.getTitle())
                 .body(post.getBody())
                 .author(post.getAuthor())
+                .wordCount(post.getWordCount())
+                .calculatedValue(post.getCalculatedValue())
                 .build();
     }
 
